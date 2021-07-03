@@ -1,0 +1,44 @@
+.joinProjet h2{
+    color:white
+}
+.description{
+    color: white;
+    height:200px;
+    
+}
+
+.joinProjet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.elem{
+    color: white;
+    margin: auto; 
+}
+
+#card2 {
+    height:600px !important
+}
+.eleme{
+    transition: transform .2s; 
+    background-color:rgba(255, 255, 255, 0.31);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 1px 1px rgba(0,0,0,0.23);
+    
+
+}
+.eleme:hover {
+  transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button-modal {
+    margin-bottom: 10px;
+}
